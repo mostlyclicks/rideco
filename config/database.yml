@@ -15,9 +15,9 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: ref_test2_development
+  database: rideco_development
   pool: 5
-  username: ref_test2
+  username: rideco
   password:
 
   # Connect on a TCP socket. Omitted by default since the client uses a
@@ -41,15 +41,15 @@ development:
 test:
   adapter: postgresql
   encoding: unicode
-  database: ref_test2_test
+  database: rideco_test
   pool: 5
-  username: ref_test2
+  username: rideco
   password:
 
 production:
   adapter: postgresql
   encoding: unicode
-  database: ref_test2_production
+  database: rideco_production
   pool: 5
-  username: ref_test2
+  username: rideco
   password:
